@@ -1,4 +1,5 @@
 import React from "react";
+import Fave from './Fave';
 
 
 const FilmDetails = function(props) {
@@ -11,6 +12,7 @@ const FilmDetails = function(props) {
           <img src={backdropUrl} alt={props.film.title} />
           <h1 className="film-title">{props.film.title}</h1>
         </figure>
+        <Fave isFave={props.isFave} />
         <div className="film-meta">
           <h2 className="film-tagline">{props.film.tagline}</h2>
           <p className="film-detail-overview">
