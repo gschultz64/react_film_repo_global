@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import FilmRow from './FilmRow';
 
+
 class FilmListing extends Component {
 
   constructor(props) {
@@ -12,7 +13,6 @@ class FilmListing extends Component {
   }
 
   handleFilterClick(filter) {
-    console.log("Setting filter to " + filter);
     this.setState( {
       filter
     })

@@ -11,9 +11,8 @@ html {
 
 html,
 body,
-#root {
+#root{
   height: 100%;
-  /* overflow: hidden; */
 }
 
 img {
@@ -39,7 +38,7 @@ figure {
   flex: 1 0 33.333333%;
   height: 100%;
   padding: 3.6em 0 0;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   background-color: #f0f0f0;
 }
 
@@ -161,7 +160,7 @@ figure {
 
 .film-details {
   position: relative;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 .film-details > .section-title {
@@ -174,7 +173,7 @@ figure {
   min-height: 100vh;
   justify-content: center;
   align-items: center;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   margin-bottom: 2em;
 }
 
